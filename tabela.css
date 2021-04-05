@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:50px;
+    font-size: 17px;
+}
+
+table {
+    width:300px;
+    border:1px solid #ccc;
+}
+table thead {
+    background-color: #ccc;
+}
+tbody tr:nth-child(even) {
+    background-color: chartreuse;
+}
+td, th {
+    padding:5px;
+}
